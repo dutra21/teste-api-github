@@ -10,7 +10,10 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "vue": "^2.6.6",
+    "vue-api-query": "^1.4.1",
+    "vue-collapse": "^1.0.31",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
   },
