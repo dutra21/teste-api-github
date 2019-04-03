@@ -23,12 +23,14 @@ export default {
   data() {
     return {
       text: null,
-      validate: false,
     };
   },
 
   methods: {
     sendSearch() { 
+      if(this.text === null) {
+        return
+      }
       this.$emit('confirm', this.text)
     },
   },
